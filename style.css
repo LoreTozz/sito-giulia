@@ -1,0 +1,42 @@
+body{
+    background-color: sandybrown;
+}
+div{
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+p{
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name{
+    font-size: 36px;
+}
+
+.italy{
+    font-size: 24px;
+    font-style: oblique;
+}
+
+.address{
+    font-size: 24px;
+}
+
+img{
+    padding-right: 150px;
+    height: 200px;
+    width: auto;
+}
+
+.logo{
+    height: 25px;
+    width: 25px;
+
+}
+a{
+    width: 25px;
+}
+
