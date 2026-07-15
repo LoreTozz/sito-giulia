@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giulia Fornai | Architetto</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <div class="infos">
-        <p class="name">Giulia Fornai, architetto</p>
+<body class="bg-orange-200 p-16 font-[Gill_Sans_Extrabold]">
+    <div class="infos flex flex-col gap-2">
+        <p class="name text-3xl pb-4">Giulia Fornai, architetto</p>
         <p class="address">Siena | Poggibonsi,</p>
         <p class="italy">Italia</p>
     </div>
-    <div>
-        <img src="./imgs/img1.png" alt="Photo stock 1">
-        <img src="./imgs/img2.jpg" alt="Photo stock 2">
-        <img src="./imgs/img3.jpg" alt="Photo stock 3">
+    <div class="carousel flex justify-around flex-wrap">
+        <img class="py-4" src="./imgs/img1.png" alt="Photo stock 1">
+        <img class="py-4" src="./imgs/img2.jpg" alt="Photo stock 2">
+        <img class="py-4" src="./imgs/img3.jpg" alt="Photo stock 3">
     </div>
-    <div>
-        <p>+39 347 4446492 giuliafornai@gmail.com</p>
-        <a href="https://www.instagram.com/better_call_tozze/" target="_blank" rel="noreferrer"><img class="logo" src="./imgs/instagram.webp" alt="Link to Instagram profile"></a>
-        <a href="https://www.linkedin.com/in/lorenzo-tozzetti-a185a4205/" target="_blank" rel="noreferrer"><img class="logo" src="./imgs/linkedin.webp" alt="Link to Linkedin profile"></a>
+    <div class="bg-orange-200 w-full pl-16 pr-32 flex justify-end gap-4 bottom-0 pb-16 pt-4 fixed">
+        <a href="https://www.instagram.com/better_call_tozze/" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/lorenzo-tozzetti-a185a4205/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="tel:+393474446492">347 4446492</a>
+        <a href="mailto:giuliafornai@gmail.com">giuliafornai@gmail.com</a>
     </div>
 </body>
 </html>

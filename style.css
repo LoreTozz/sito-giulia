@@ -25,7 +25,7 @@ p{
     font-size: 24px;
 }
 
-img{
+.carousel > img{
     padding-right: 150px;
     height: 200px;
     width: auto;
@@ -40,3 +40,7 @@ a{
     width: 25px;
 }
 
+.fa-brands {
+  font-size: 2em;
+  padding: 10px;
+}
