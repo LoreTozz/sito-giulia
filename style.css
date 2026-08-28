@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: 'Caslon';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/ACaslonPro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'CaslonSemibold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/AdobeCaslonProSemibold.ttf') format('truetype');
+}
