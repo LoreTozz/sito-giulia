@@ -16,3 +16,23 @@
   font-style: italic;
 }
 
+.cormorant-garamond-text-regular {
+  font-family: "Cormorant Garamond", serif !important;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 0.8;
+}
+
+.cormorant-garamond-text-semibold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1;
+}
+
+.cormorant-garamond-text-regular-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 0.5;
+}
